@@ -1,0 +1,58 @@
+{
+  "name": "Siddharth Jha",
+  "phrases": [
+    "Building AI Systems",
+    "Learning for ML Researcher",
+    "Open to Collaborate"
+  ],
+  "linkedin": null,
+  "projects": [
+    {
+      "name": "Lattice",
+      "repo": "Lattice",
+      "category": "DISTRIBUTED SYSTEMS",
+      "description": "Deploy applications across connected computers with resource-aware scheduling and guarded recovery.",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Next.js"
+      ],
+      "icon": "nodes"
+    },
+    {
+      "name": "Manora",
+      "repo": "manora",
+      "category": "AI COMPANION",
+      "description": "Student-focused mental-health support built around a persistent AI companion called Buddy.",
+      "tags": [
+        "Python",
+        "Conversational AI"
+      ],
+      "icon": "orbit"
+    },
+    {
+      "name": "Revenue SRE",
+      "repo": "revenue-sre",
+      "category": "PAYMENT RELIABILITY",
+      "description": "Detect payment failure spikes, investigate evidence, and coordinate approved recovery actions.",
+      "tags": [
+        "FastAPI",
+        "PostgreSQL",
+        "React"
+      ],
+      "icon": "pulse"
+    },
+    {
+      "name": "CNN Filter Explorer",
+      "repo": "Visualizing-CNN-Filters",
+      "category": "ML RESEARCH JOURNEY",
+      "description": "Explore VGG16 filters and feature maps to understand how convolutional networks see an image.",
+      "tags": [
+        "VGG16",
+        "Deep Learning",
+        "Notebooks"
+      ],
+      "icon": "grid"
+    }
+  ]
+}

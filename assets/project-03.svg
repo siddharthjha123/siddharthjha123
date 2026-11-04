@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="298" viewBox="0 0 600 298" role="img" aria-label="Revenue SRE: Detect payment failure spikes, investigate evidence, and coordinate approved recovery actions.">
+    <defs>
+      <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72dbff"/><stop offset=".45" stop-color="#327ed1"/><stop offset="1" stop-color="#636fff"/></linearGradient>
+      <linearGradient id="title" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e2f7ff"/><stop offset="1" stop-color="#85bdff"/></linearGradient>
+      <radialGradient id="aura" cx="90%" cy="0%" r="100%"><stop stop-color="#163259" stop-opacity=".7"/><stop offset="1" stop-color="#0b1526" stop-opacity="0"/></radialGradient>
+    </defs>
+    <path d="M18 2H580L598 20V280L582 296H2V18Z" fill="#0b1526" stroke="#223d5b" stroke-width="1.3"/>
+    <path d="M18 2H580L598 20V280L582 296H2V18Z" fill="url(#aura)"/>
+    <path d="M2 48V18L18 2H120M480 2H580L598 20V48M598 250V280L582 296H480M120 296H2V250" fill="none" stroke="url(#edge)" stroke-width="2"/>
+    <text x="32" y="35" fill="#75bce9" font-family="Consolas,monospace" font-size="11" letter-spacing="2">PROJECT // 03</text>
+    <path d="M32 48H470" stroke="#1c3550"/><path d="M32 48H85" stroke="#59baff" stroke-width="2"/>
+    <text x="32" y="94" fill="url(#title)" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">Revenue SRE</text>
+    <text x="32" y="119" fill="#62b8ed" font-family="Consolas,monospace" font-size="10.5" letter-spacing="1.7">PAYMENT RELIABILITY</text>
+    <g transform="translate(512 67)"><g fill="none" stroke="#76d5ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 23H11L16 9 24 35 31 16 36 23H47"/><path d="M7 3H17M37 3H45M7 43H17M37 43H45" stroke-opacity=".4"/></g></g>
+    <text x="32" y="146" fill="#a9bdd9" font-family="Segoe UI,Arial,sans-serif" font-size="17">Detect payment failure spikes, investigate evidence,</text><text x="32" y="171" fill="#a9bdd9" font-family="Segoe UI,Arial,sans-serif" font-size="17">and coordinate approved recovery actions.</text><path d="M36 228h66v24h-70v-20Z" fill="#10243d" stroke="#244865"/><text x="42" y="244" fill="#9ed0ee" font-family="Consolas,monospace" font-size="12">FastAPI</text><path d="M115 228h87v24h-91v-20Z" fill="#10243d" stroke="#244865"/><text x="121" y="244" fill="#9ed0ee" font-family="Consolas,monospace" font-size="12">PostgreSQL</text><path d="M215 228h52v24h-56v-20Z" fill="#10243d" stroke="#244865"/><text x="221" y="244" fill="#9ed0ee" font-family="Consolas,monospace" font-size="12">React</text>
+    <text x="32" y="279" fill="#6081a5" font-family="Consolas,monospace" font-size="10" letter-spacing="1.4">SIDDHARTHJHA123 / OPEN SOURCE</text>
+    <g stroke="#8bd9ff" fill="none" stroke-width="1.5"><path d="M553 270h15v-15M568 255 552 271"/></g>
+    </svg>
