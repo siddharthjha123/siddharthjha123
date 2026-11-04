@@ -184,7 +184,11 @@ def social(label, icon):
 (ASSETS/'projects-heading.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="75" viewBox="0 0 1200 75"><path d="M0 38H357M843 38H1200" stroke="#244362"/><path d="M327 38H357M843 38H873" stroke="#5fc3ff" stroke-width="2"/><text x="600" y="43" text-anchor="middle" font-family="Consolas,monospace" font-size="20" letter-spacing="4" fill="#9bdcff">SELECTED PROJECTS</text></svg>''',encoding='utf-8')
 
 readme = '''<p align="center">
-  <img src="assets/system-header-v1.gif" alt="Siddharth Jha â€” Building AI Systems; Learning for ML Researcher; Open to Collaborate" width="100%" />
+  <img src="assets/ascii-portrait-wind-v2.gif" alt="Siddharth Jha with his laptop" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/system-header-v1.gif" alt="Siddharth Jha — Building AI Systems; Learning for ML Researcher; Open to Collaborate" width="100%" />
 </p>
 
 <p align="center">
@@ -197,7 +201,7 @@ readme = '''<p align="center">
 </p>
 
 '''
-linkedin_button = '<img src="assets/social-linkedin.svg" alt="LinkedIn â€” profile link pending" width="145" />'
+linkedin_button = '<img src="assets/social-linkedin.svg" alt="LinkedIn — profile link pending" width="145" />'
 if LINKEDIN:
     linkedin_button=f'<a href="{LINKEDIN}"><img src="assets/social-linkedin.svg" alt="LinkedIn" width="145" /></a>'
 readme=readme.replace('LINKEDIN_BUTTON',linkedin_button)
@@ -205,15 +209,8 @@ for i in [0,2]:
     readme+='<p align="center">\n'
     for j in [i,i+1]:
         project=PROJECTS[j]
-        readme+=f'  <a href="https://github.com/siddharthjha123/{project["repo"]}"><img src="assets/project-{j+1:02d}.svg" alt="{project["name"]} â€” {project["category"].title()}" width="390" /></a>\n'
+        readme+=f'  <a href="https://github.com/siddharthjha123/{project["repo"]}"><img src="assets/project-{j+1:02d}.svg" alt="{project["name"]} — {project["category"].title()}" width="390" /></a>\n'
     readme+='</p>\n\n'
-readme+='''<details>
-  <summary>ASCII portrait Â· wind animation</summary>
-  <p align="center">
-    <img src="assets/ascii-portrait-wind-v2.gif" alt="ASCII portrait of Siddharth with his laptop and slowly moving wind" width="100%" />
-  </p>
-</details>
-'''
-(OUT/'README.md').write_text(readme,encoding='utf-8')
+(OUT/'README.md').write_text(readme.rstrip()+'\n',encoding='utf-8')
 (ROOT/'profile-content.json').write_text(json.dumps({'name':'Siddharth Jha','phrases':PHRASES,'linkedin':LINKEDIN,'projects':PROJECTS},indent=2),encoding='utf-8')
 print(json.dumps({'header_frames':len(frames),'header_bytes':header_path.stat().st_size,'seconds':duration,'assets':len(list(ASSETS.iterdir()))}))

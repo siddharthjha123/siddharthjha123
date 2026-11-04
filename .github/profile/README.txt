@@ -13,4 +13,5 @@ fonts and does not depend on an external badge or animation service.
 
 The four cards are a curated snapshot of the most recently updated public
 projects. They do not automatically modify or synchronize GitHub's pinned list.
-The LinkedIn button is intentionally unlinked while its URL is unset.
+The LinkedIn button uses the profile URL in profile-content.json.
+The portrait is displayed first, followed by the typing header, socials and cards.
